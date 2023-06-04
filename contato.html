@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="menu.html" class="mymenu" title="Home">Home</a></li>
+            <li><a href="tabela.html" class="mymenu" title="Agendar">Farms</a></li>
+            <li><a href="contato.html" class="mymenu" title="Consultar">Entrar no servidor</a></li>
+        </ul>
+        </header>
+        <h1>VENHA JOGAR EM NOSSO SERVIDOR</h1>
+        <form method="POST" action="verifica.php">
+            <div id="area">
+                <fieldset
+                    <p>
+                   Nickname: <input type="text" size="42" maxlength="50" name="nome"><br><br>
+                    Idade: <input type="text" size="42" maxlength="14" name="CPF"><br><br>
+                    Email:<input type="text" size="42" maxlength="30" name="Email"><br><br>
+                    
+                    <h4>Descreva sua esperiência com minecraft</h4>
+                    <textarea name="dados_adicionais" cols="42" rows="5"></textarea><br><br>
+                    <input type="submit" value="Mandar informações" name="enviar"><br><br>
+                    <input type="submit" value="Limpar dados">
+                    </p>
+                </fieldset>
+            </div>
+        </form>
+</body>
+</html>

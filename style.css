@@ -1,0 +1,155 @@
+@font-face {
+    font-family: minecraft;
+    src: url(fontes/Minecraft.ttf);
+}
+body {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-image: url(img/cenario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
+img{
+  position: absolute;
+  top: 140px;
+  left: 460px;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-family: minecraft
+
+  }
+  h2{
+    position: absolute;
+    text-align: center;
+    top: 75px;
+}
+
+
+   
+  ul {
+      
+    width:100%;
+    float:left; 
+    text-align:center;
+    background: #0b1e2e;
+    margin-top: 0;
+   
+  }
+   
+  li {
+   
+    padding-right: 20px;
+    display: inline-block;
+    list-style:none;
+   
+  }
+   
+  li .mymenu {
+   
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 16px;
+   text-decoration: none;
+   color:#ffffff;
+   -webkit-border-box: 0 1px 0 0 #4c4c4c;
+   border-bottom: 4px solid transparent;
+   
+  }
+   
+  li .mymenu:hover {
+    
+    border-bottom:4px solid #4c4c4c;
+  }
+   
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+   
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* altura do rodapé */
+  }
+   
+  header {
+   
+    background: #0b1e2e;
+  
+  }
+   
+  footer {
+    background: #0b1e2e;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+    bottom: -411px;
+    
+  }
+   
+  .footer {
+    height: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+  }
+   
+  table {
+    align-items: center;
+    width: 50%;
+    margin-top:  30px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(46, 214, 46);
+  }
+   
+  .castelo{
+
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 150px;
+    left: 0px;
+  }
+  .cidade{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 600px;
+    left: 0px;
+
+  }
+   
+  td {
+    height: 80px;
+ margin-top: 0%;
+  }
+
+  h3{
+left: 390px;
+top: 500px;
+}
+
+td{
+text-align: center;
+border-color:rgb(0, 0, 0);
+
+}
+
+#area{
+  position: relative;
+  left: 39%;
+  top: 29%;
+  width: 320px;
+  height: 270px;
+
+}
+fieldset{
+  width: 320px;
+  height: 530px;
+  background-color: rgb(46, 214, 46);
+}
